@@ -20,7 +20,7 @@ input,button{
     width: 100%;
 }
 
-.header .more_inf {
+.header .header__more_inf {
     font-family: fantasy, cursive;
 }
 
