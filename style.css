@@ -47,12 +47,14 @@ input,button{
     display: flex;
 }
 
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks, 
+#completed-tasks {
     margin: 0;
     padding: 0px;
 }
 
-.task-list, .main__title {
+.task-list, 
+.main__title {
     list-style: none;
 }
 
@@ -81,7 +83,9 @@ input,button{
     text-transform: uppercase;
 }
 
-.main__task-input, .task-list__task-input, .task-list__task-input {
+.main__task-input, 
+.task-list__task-input, 
+.task-list__task-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -94,7 +98,9 @@ input,button{
     color: #888;
 }
 
-.main__task-input, .task-list__task-input, .task-list__task-input:focus {
+.main__task-input, 
+.task-list__task-input, 
+.task-list__task-input:focus {
 
     color: #333;
 }
@@ -146,7 +152,8 @@ input,button{
 }
 
 /* Completed */
-#completed-tasks .task-list__task-name {
+#completed-tasks 
+.task-list__task-name {
     text-decoration: line-through;
     color: #888;
 }
@@ -156,11 +163,13 @@ input,button{
     display: none;
 }
 
-.edit-mode .task-list__task-input {
+.edit-mode 
+.task-list__task-input {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode .task-list__task-name {
+.edit-mode 
+.task-list__task-name {
     display: none;
 }
