@@ -1,6 +1,6 @@
 /* Basic Style */
 input,button{
-	outline:none;
+	outline: none;
 }
 
 .page {
@@ -48,12 +48,12 @@ input,button{
 }
 
 #incomplete-tasks, #completed-tasks {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .task-list, .main__title {
-    list-style:none;
+    list-style: none;
 }
 
 .btn {
@@ -153,14 +153,14 @@ input,button{
 
 /* Edit Task */
 .task-list__task-input {
-    display:none
+    display: none
 }
 
 .edit-mode .task-list__task-input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .edit-mode .task-list__task-name {
-    display:none;
+    display: none;
 }
